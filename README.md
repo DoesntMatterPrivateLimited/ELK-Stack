@@ -133,20 +133,37 @@ Install Filebeat by running the following command:
 ```
 sudo apt install filebeat
 ```
+
 Configure Filebeat
 Filebeat, by default, sends data to Elasticsearch. Filebeat can also be configured to send event data to Logstash.
 
 To configure this, edit the filebeat.yml configuration file:
 
+```
+sudo vim /etc/filebeat/filebeat.yml
+```
+Under the Elasticsearch output section:
 
+```
+ output.elasticsearch:
+   Array of hosts to connect to.
+   hosts: ["localhost:9200"]
+```
 
+![Screenshot ](https://i.imgur.com/r4yicpH.png)
 
+Enable the Filebeat system module, which will examine local system logs:
 
+```
+sudo filebeat modules enable system
+```
 
+Start and enable the Filebeat service:
 
-
-
-
+```
+sudo systemctl start filebeat
+sudo systemctl enable filebeat
+```
 
 
 
