@@ -64,7 +64,12 @@ systemctl restart elasticsearch
 systemctl enable elasticsearch
 ```
 
+To verify the working of elasticsearch use curl command as given below:
 
+```
+curl -X GET "<IP>:9200"
+```
+![Screenshot ](https://i.imgur.com/InfWEwY.png)
 
 
 
