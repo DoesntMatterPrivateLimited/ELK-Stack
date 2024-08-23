@@ -57,7 +57,12 @@ vim /etc/elasticsearch/jvm.options
 
 ![Screenshot ](https://i.imgur.com/MNGFjaY.png)
 
+Restart and enable elasticsearch:
 
+```
+systemctl restart elasticsearch
+systemctl enable elasticsearch
+```
 
 
 
