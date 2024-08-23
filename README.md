@@ -28,6 +28,7 @@ Update the APT source list by using the below command:
 ```
 apt update
 ```
+# Install Elasticsearch:
 
 Install the Elastic Search by using the below command:
 
