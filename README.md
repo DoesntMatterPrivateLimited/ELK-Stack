@@ -52,8 +52,8 @@ Configure the JVM heap memory by using the below command:
 ```
 vim /etc/elasticsearch/jvm.options
 ```
--Xms512m
--Xmx512m
+  -Xms512m
+  -Xmx512m
 
 ![Screenshot ](https://i.imgur.com/MNGFjaY.png)
 
