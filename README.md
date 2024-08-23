@@ -96,6 +96,8 @@ systemctl status logstash
 ```
 # Install Kibana:
 
+  - Kibana is a graphical user interface for parsing and interpreting collected log files.
+
 Now install Kibana:
 
 ```
