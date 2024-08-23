@@ -3,6 +3,7 @@
 Prerequisites:
   
   - Java 8 or 11 supported
+  - Install nginx (Nginx work as a web server and proxy server)
 
 ```
 sudo apt update -y
@@ -165,12 +166,27 @@ sudo systemctl start filebeat
 sudo systemctl enable filebeat
 ```
 
+Check the nginx status:
 
+```
+systemctl status nginx
+```
 
+Start nginx module for filebeat to see the logs in kibana dashboard:
 
+```
+filebeat modules enable nginx
+```
 
+setup filebeat from terminal to get logs in kibana:
 
+```
+filebeat setup -e
+```
 
+![Screenshot ](https://i.imgur.com/ywR0mZN.png)
+
+![Screenshot ](https://i.imgur.com/Pi8iF4q.png)
 
 
 
