@@ -106,10 +106,22 @@ vim /etc/kibana/kibana.yml
 
 ![Screenshot ](https://i.imgur.com/jVyxOfe.png)
 
+Start and enable kibana service:
 
+```
+systemctl start kibana
+systemctl enable kibana
+```
 
+Check the status of the kibana service:
 
+```
+systemctl status kibana
+```
 
+Ping the http://localhost:5601 in browser to view the Dashboard of the kibana as show in the below image:
+
+![Screenshot ](https://i.imgur.com/y9B2kep.png)
 
 
 
