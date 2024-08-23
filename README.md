@@ -73,16 +73,38 @@ curl -X GET "<IP>:9200"
 ![Screenshot ](https://i.imgur.com/InfWEwY.png)
 
 
+Install the Logstash using apt:
 
+```
+apt install logstash
+```
 
+Start and enable Logstash services:
 
+```
+systemctl start logstash
+systemctl enable logstash
+```
 
+Check the status of the Logstash Service:
 
+```
+systemctl status logstash
+```
 
+Now install Kibana:
 
+```
+apt install kibana
+```
 
+Configure kibana.yml file in /etc/kibana:
 
+```
+vim /etc/kibana/kibana.yml
+```
 
+![Screenshot ](https://i.imgur.com/jVyxOfe.png)
 
 
 
