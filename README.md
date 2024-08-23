@@ -43,6 +43,7 @@ vim /etc/elasticsearch/elasticsearch.yml
 Change the network.host and http.port as per the screenshot(network.host is the IP of the Ubuntu machine)
 
 Just below, find the Discovery section. We are adding one more line, as we are configuring a single node cluster:
+
 Add “discovery.type: single-node”
 
 ![Screenshot ](https://i.imgur.com/IUNFAJ0.png)
