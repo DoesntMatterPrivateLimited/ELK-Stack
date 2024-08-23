@@ -76,6 +76,8 @@ curl -X GET "<IP>:9200"
 
 # Install Logstash:
 
+  -  Logstash is a tool that collects data from different sources. The data it collects is parsed by Kibana and stored in Elasticsearch.
+
 Install the Logstash:
 
 ```
