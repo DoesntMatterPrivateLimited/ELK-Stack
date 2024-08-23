@@ -72,6 +72,7 @@ curl -X GET "<IP>:9200"
 ```
 ![Screenshot ](https://i.imgur.com/InfWEwY.png)
 
+# Install Logstash:
 
 Install the Logstash using apt:
 
@@ -91,6 +92,7 @@ Check the status of the Logstash Service:
 ```
 systemctl status logstash
 ```
+# Install Kibana:
 
 Now install Kibana:
 
@@ -123,7 +125,13 @@ Ping the http://localhost:5601 in browser to view the Dashboard of the kibana as
 
 ![Screenshot ](https://i.imgur.com/y9B2kep.png)
 
+# Install Filebeat:
 
+Install Filebeat by running the following command:
+
+```
+sudo apt install filebeat
+```
 
 
 
