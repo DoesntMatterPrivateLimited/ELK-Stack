@@ -133,6 +133,9 @@ Ping the http://localhost:5601 in browser to view the Dashboard of the kibana as
 
 # Install Filebeat:
 
+  - Filebeat is a lightweight plugin used to collect and ship log files.It is the most commonly used Beats module. One of Filebeat’s major advantages is that it slows down its pace if 
+    the Logstash service is overwhelmed with data.
+
 Install Filebeat by running the following command:
 
 ```
