@@ -29,7 +29,7 @@ Update the APT source list by using the below command:
 ```
 apt update
 ```
-# Install Elasticsearch:
+# $${\color {blue} \textbf {Install} \color {green} \textbf {Elasticsearch:}}$$
 
 Install the Elastic Search by using the below command:
 
